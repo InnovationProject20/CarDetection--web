@@ -13,12 +13,6 @@
 	<link rel = "stylesheet" type = "text/css" href = "webStyle.css" />
 </head>
 
-<?php
-	session_start();
-	require 'sqlFunctions.php';
-?>
-
-
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
@@ -31,6 +25,7 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.php">HOME</a></li>
 					<li><a href="liveRecognition.php">LIVE RECOGNITION</a></li>
 					<li><a href="dataTables.php">DATA</a></li>
 					<li><a href="about.php">ABOUT PROJECT</a></li>
